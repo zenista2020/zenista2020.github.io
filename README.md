@@ -1,2 +1,4 @@
-# zenista2020.github.io
+# Zenista TechFest 2020
+
+visit:www.sairam.edu.in/zenista2020/
  
