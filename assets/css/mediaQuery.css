@@ -1,0 +1,35 @@
+@media only screen and (min-width: 426px) {
+    #zen {
+        font-size: 80px;
+    }
+    #zen2 {
+        font-size: 40px;
+    }
+    #headers {
+        font-size: 70px;
+    }
+    #note {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #zen {
+        font-size: 60px;
+    }
+    .cd-words-wrapper {
+        font-size: 33px;
+    }
+    .blc,
+    #da,
+    #db,
+    #dc {
+        font-size: 30px;
+    }
+    #headers {
+        font-size: 53px;
+    }
+    #note {
+        font-size: 18px;
+    }
+}

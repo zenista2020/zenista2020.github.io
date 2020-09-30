@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#scroll-to-top {
+    background-color: rgba(218, 165, 32, 0.7);
+    width: 44px;
+    height: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 1px 17px 24px -10px rgba(182, 132, 5, 1);
+    text-align: center;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    z-index: 1;
+}
+
+#scroll-to-top i {
+    color: #fff;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
