@@ -10,6 +10,11 @@ function parallax() {
     } else {
         document.getElementById("tester").style.display = "block";
     }
+    if (scrolled > 100) {
+        document.getElementById("navbrand").style.width = "100px"
+    } else {
+        document.getElementById("navbrand").style.width = "160px"
+    }
 }
 
 $(window).scroll(function(e) {
